@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 40%;
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid black;
+}
+
+.playerCodes_container{
+  width: 100px;
+  height: 250px;
+  overflow-y: scroll;
+  position: absolute;
+  float: left;
+  left: 5px;
+}
+
+.playerStats_container{
+  margin-left: 100px;
+}
+
+span{
+  font-size: 22px;
+  color: orange;
+}
