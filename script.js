@@ -55,7 +55,7 @@ for (var i = 0; i < 100; i++) {
 };
 console.log(basketPlayer_container);
 
-//aggiungo al container dei giocatore il loro rispettivo codice
+//aggiungo al container playerCodes il loro rispettivo codice
 for (var i = 0; i < basketPlayer_container.length; i++) {
   $('.playerCodes_container').append('<div id = "giocatore" data-value="'+i+'">'+ basketPlayer_container[i].code +'</div>')
 };
